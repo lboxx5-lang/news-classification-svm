@@ -8,9 +8,8 @@ from sklearn.preprocessing import FunctionTransformer, OneHotEncoder
 from sklearn.svm import LinearSVC
 
 # Configuration
-DATA_DIR = "winter_project_2026"
-DEV_PATH = f"{DATA_DIR}/development.csv"
-EVAL_PATH = f"{DATA_DIR}/evaluation.csv"
+DEV_PATH = "development.csv"
+EVAL_PATH = "evaluation.csv"
 
 SEED = 42
 np.random.seed(SEED)
